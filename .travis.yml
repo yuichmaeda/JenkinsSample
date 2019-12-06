@@ -5,5 +5,5 @@ language: java
 #    - mvn clean
 #    - mvn package
 
-sudo: false
-script: mvn clean package
+#sudo: false
+#script: mvn clean package
