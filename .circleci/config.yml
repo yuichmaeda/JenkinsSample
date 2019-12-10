@@ -20,7 +20,7 @@ jobs: # ステップの集合
 
 #      - save_cache: # プロジェクトの依存関係を保存します
 #          paths:
-            - ~/.m2
+#            - ~/.m2
 #          key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
       - run: mvn clean
       - run: mvn package # 実際のテストを実行します
