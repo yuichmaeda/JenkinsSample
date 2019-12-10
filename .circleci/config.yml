@@ -27,7 +27,8 @@ jobs: # ステップの集合
 
       - store_test_results: # CircleCI ダッシュボードにテストメタデータを表示できるように、`target/surefire-reports` ディレクトリからアップロードします
       # テストサマリー (https://circleci.com/docs/ja/2.0/collect-test-data/) に表示するテスト結果をアップロードします
-          path: target/surefire-reports
+#          path: target/surefire-reports
+          path: test-results
 
 #      - store_artifacts: # uberjar をアーティファクトとして保存します
       # アーティファクト (https://circleci.com/docs/ja/2.0/artifacts/) に表示するテストサマリーをアップロードします
