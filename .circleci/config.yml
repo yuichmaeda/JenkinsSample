@@ -25,7 +25,7 @@ jobs: # ステップの集合
       - run: mvn clean
       - run: mvn package # 実際のテストを実行します
 
-#      - store_test_results: # CircleCI ダッシュボードにテストメタデータを表示できるように、`target/surefire-reports` ディレクトリからアップロードします
+      - store_test_results: # CircleCI ダッシュボードにテストメタデータを表示できるように、`target/surefire-reports` ディレクトリからアップロードします
       # テストサマリー (https://circleci.com/docs/ja/2.0/collect-test-data/) に表示するテスト結果をアップロードします
 #          path: target/surefire-reports
 
