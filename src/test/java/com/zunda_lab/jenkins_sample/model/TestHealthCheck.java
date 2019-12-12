@@ -14,7 +14,7 @@ import junit.framework.TestCase;
 public class TestHealthCheck extends TestCase {
 
     /**
-     * BMI判定結果「標準（低体重ギリギリ）」のテストケース.
+     * BMI判定結果「標準（低体重ギリギリ）」のテストケース.d
      * 53.465/(1.7*1.7) = 18.5
      */
     @Test
