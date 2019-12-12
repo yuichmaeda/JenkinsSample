@@ -3,7 +3,7 @@ package com.zunda_lab.jenkins_sample.model;
 import java.io.Serializable;
 
 /**
- * BMIビーンクラス.
+ * BMIビーンクラス.:
  */
 public class BmiBean implements Serializable {
 
