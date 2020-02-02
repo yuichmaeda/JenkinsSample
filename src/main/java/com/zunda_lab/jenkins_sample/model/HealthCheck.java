@@ -23,7 +23,6 @@ public class HealthCheck {
         double height = bmiBean.getHeight();
         double bmi = weight / (height / TO_METER * height / TO_METER);
         bmiBean.setBmi(bmi);
-        
 
         String bodyType;
         if (bmi < BMI_NORMAL_LOWER_LIMIT) {
