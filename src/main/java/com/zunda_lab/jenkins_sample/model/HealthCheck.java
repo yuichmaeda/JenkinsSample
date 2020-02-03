@@ -24,6 +24,8 @@ public class HealthCheck {
         double bmi = weight / (height / TO_METER * height / TO_METER);
         bmiBean.setBmi(bmi);
 
+        
+
         String bodyType;
         if (bmi < BMI_NORMAL_LOWER_LIMIT) {
             bodyType = "低体重";
