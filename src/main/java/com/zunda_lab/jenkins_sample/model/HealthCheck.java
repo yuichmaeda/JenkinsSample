@@ -24,6 +24,7 @@ public class HealthCheck {
         double bmi = weight / (height / TO_METER * height / TO_METER);
         bmiBean.setBmi(bmi);
 
+
         
 
         String bodyType;
