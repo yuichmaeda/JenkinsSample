@@ -25,8 +25,6 @@ public class HealthCheck {
         bmiBean.setBmi(bmi);
 
 
-        
-
         String bodyType;
         if (bmi < BMI_NORMAL_LOWER_LIMIT) {
             bodyType = "低体重";
